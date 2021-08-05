@@ -19,18 +19,11 @@
     "typescript": "3.3.3"
   },
   "scripts": {
-    "start": "node api/index.js",
-        "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false npm install npm && run build",
-   
+    "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"
   },
-
-    
-    "engines": {
-        "node": "10.16.0"
-    },
   "browserslist": {
     "production": [
       ">0.2%",
@@ -44,5 +37,4 @@
       "last 1 safari version"
     ]
   },"proxy": "http://localhost:5000/api/" 
-  
 }
